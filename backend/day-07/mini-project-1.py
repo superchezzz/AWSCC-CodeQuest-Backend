@@ -16,12 +16,12 @@ while True:
         print(f"{add_item} has been added to your shopping list.\n")
 
     elif choice_num==2:
-        print("Your shopping list:")
+        print("Your shopping list: ")
         for view_list in shopping_list:
             print(f"{view_list}\n") #I still don't know how to fix those spaces 
 
     elif choice_num==3:
-        remove= (input("Enter the item you want to remove:"))
+        remove= (input("Enter the item you want to remove: "))
         shopping_list.remove(remove)
         print(f"{remove} has been removed from your shopping list\n")
 
