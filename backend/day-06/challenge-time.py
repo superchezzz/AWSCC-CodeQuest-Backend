@@ -1,8 +1,3 @@
-'''
-if a number is divisible by 3, print 'Fizz'
-if a number is divisible by 5, print 'Buzz'
-if a number is both divisible by 3 and 5, print 'FizzBuzz!'
-'''
 limit = int(input("Limit: "))
 
 i = 1
