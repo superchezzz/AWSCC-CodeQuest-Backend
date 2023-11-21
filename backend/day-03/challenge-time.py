@@ -16,7 +16,7 @@ if proceed == "Yes":
         elif police_ask == "No":
             print("Game Over")
         else:
-            print("Error")
+            print("Invalid command.")
     elif man_ask == "No": 
         attack_you=input("He attacked on you. Will you knock him down?  [Yes or No]: ").capitalize()
         if attack_you == "Yes":
@@ -24,10 +24,10 @@ if proceed == "Yes":
         elif attack_you=="No":
             print("Game Over")
         else:
-            print("Error")
+            print("Invalid command.")
     else:
-        print("Error")
+        print("Invalid command.")
 elif proceed == "No":
     print("Thank you!")
 else:
-    print("Error")
+    print("Invalid command.")
