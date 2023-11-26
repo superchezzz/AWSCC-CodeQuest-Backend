@@ -65,6 +65,7 @@ if proceed == "Yes":
     elif dev_path== "Back-end":
         print("\n\nWelcome to Back-end! Ready to build the backbone of the digital realm? Let's code the engine that powers innovation! 💻🚀✨\nFirst Task: Learn HTML and CSS")
         proceed_html=input("Would you like to proceed? [Yes or No]:\n>> ").capitalize()
+        
     elif dev_path == "Full-stack":
         print("\tUnleash your coding prowess as a Full Stack Developer. From crafting seamless front-end\nexperiences to optimizing server-side performance, your skills shape the digital landscape. Ready\n\tto conquer both ends of the spectrum? Let's code the future together! 💻🌐")
     else:
