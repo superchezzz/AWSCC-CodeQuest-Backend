@@ -1,0 +1,35 @@
+import random
+
+print("\t   🚀 Welcome to WebDev Simulator: Where Code Meets Creativity!Game!🌐\n\tNavigate through a branching path of projects, challenges, and opportunities.\nWill you focus on creating stunning user interfaces, optimizing server-side performance, or both?\n  The choices you make will shape your virtual career and determine the projects you tackle.")
+print("\nWould you like to proceed? [Yes or No]")
+proceed= input(">> ").capitalize()
+
+if proceed == "Yes":
+    print("Please enter your name:")
+    name=input(">> ").capitalize()
+    print(f"\t\t\tHello {name}! 🌐 Choose Your Development Path")
+    print("\tForge your path through the interconnected roads of HTML, CSS, JavaScript, and beyond. ")
+    print("Will you specialize in the front-end arts, master the server-side mysteries, or become a full-stack explorer? ")
+    print("\tThe choice is yours. Every decision you make shapes your roadmap and defines your expertise!")
+    print("\t\t\t[Front-end, Backend, or Full-stack]")
+    dev_path=input(">> ").capitalize()
+
+    if dev_path == "Front-end":
+        print("Welcome to Front-end! Ready to shape the visual web? Dive into the world where creativity meets code! 💻✨")
+        print("First Task: Learn HTML and CSS")
+        proceed_html=input("Would you like to proceed? [Yes or No]:").capitalize()
+        if proceed_html=="Yes":
+            print("Wow! Congratulation on finishing the first lesson!! It took you", random.randint(5,10),"days to master HTML and CSS😎😎😎")
+        else:
+            print("aw")
+    elif dev_path== "Back-end":
+        print("Welcome to backend!")
+    elif dev_path == "Full-stack":
+        print("\tUnleash your coding prowess as a Full Stack Developer. From crafting seamless front-end\nexperiences to optimizing server-side performance, your skills shape the digital landscape. Ready\n\tto conquer both ends of the spectrum? Let's code the future together! 💻🌐")
+    else:
+        print("Invalid choice.")
+elif proceed == "No":
+    print("See you next time!")
+else:
+    print("Invalid choice.")
+print("Thank you for playing WebDev Simulator Game!")
