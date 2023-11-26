@@ -15,18 +15,21 @@ if proceed == "Yes":
     dev_path=input(">> ").capitalize()
 
     if dev_path == "Front-end":
-        print("Welcome to Front-end! Ready to shape the visual web? Dive into the world where creativity meets code! 💻✨")
+        print("\n\nWelcome to Front-end! Ready to shape the visual web? Dive into the world where creativity meets code! 💻✨")
         print("First Task: Learn HTML and CSS")
-        proceed_html=input("Would you like to proceed? [Yes or No]:").capitalize()
+        proceed_html=input("Would you like to proceed? [Yes or No]:\n>> ").capitalize()
         if proceed_html=="Yes":
-            print("Wow! Congratulation on finishing the first lesson!! It took you", random.randint(7,14),"days to master HTML and CSS😎😎😎")
+            print("\nWow! Congratulation on finishing the first lesson!! It took you", random.randint(7,14),"days to master HTML and CSS😎😎😎")
             print("To know if you successfully master the HTML and CSS, you are assigned to create a blog post!")
-            enter1= input("press Enter if you want to do this task.\ntype \"skip\" if you want to skip").lower()
+            enter1= input("press Enter if you want to do this task.\ntype \"skip\" if you want to skip\n>> ").lower()
             if enter1=="":
                 print(f"Wow! Great job {name}. It seems like you are ready to proceed to the next lesson!!")
             else:
                 print(f"It's okay {name}! let's proceed to the next topic!")
-            print("Second Task: Learn JavaScript!")
+            print("\n\nSecond Task: Learn JavaScript!")
+            proceed_js=input("Would you like to proceed? [Yes or No]:\n>> ").capitalize()
+            if proceed_js=="Yes":
+                print("\nYou're close to the path of being a front-end developer{name}! It took you", random.randint(7,14),"days to learn the basics of JS!")
         else:
             print("aw")
     elif dev_path== "Back-end":
