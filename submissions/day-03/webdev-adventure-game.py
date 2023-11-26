@@ -19,7 +19,14 @@ if proceed == "Yes":
         print("First Task: Learn HTML and CSS")
         proceed_html=input("Would you like to proceed? [Yes or No]:").capitalize()
         if proceed_html=="Yes":
-            print("Wow! Congratulation on finishing the first lesson!! It took you", random.randint(5,10),"days to master HTML and CSS😎😎😎")
+            print("Wow! Congratulation on finishing the first lesson!! It took you", random.randint(7,14),"days to master HTML and CSS😎😎😎")
+            print("To know if you successfully master the HTML and CSS, you are assigned to create a blog post!")
+            enter1= input("press Enter if you want to do this task.\ntype \"skip\" if you want to skip").lower()
+            if enter1=="":
+                print(f"Wow! Great job {name}. It seems like you are ready to proceed to the next lesson!!")
+            else:
+                print(f"It's okay {name}! let's proceed to the next topic!")
+            print("Second Task: Learn JavaScript!")
         else:
             print("aw")
     elif dev_path== "Back-end":
