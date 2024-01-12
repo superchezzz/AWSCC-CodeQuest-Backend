@@ -1,4 +1,4 @@
-limit = int(input("Limit: "))
+limit = int(input(""))
 
 i = 1
 while (i<=limit):

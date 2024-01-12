@@ -6,7 +6,9 @@ print("Welcome to this simple rock-paper-scissor console game!")
 
 #Player Input
 player_1= input("Player 1: ").lower()
-player_2= input("Player 2: ").lower()
+choices=["rock", "paper", "scissors"]
+player_2= random.choice(choices)
+print(player_2)
 
 #Conditional Statements
 if player_1== "rock":
